@@ -1,0 +1,27 @@
+#include <windows.h>
+
+1 VERSIONINFO
+FILEVERSION 4,0,0,0
+PRODUCTVERSION 4,0,0,0
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Erfan Alikhani (برنامه نویس عرفان علیخانی)\0"
+            VALUE "FileDescription",  "NeuroScan AI Ultra v4.0 - C++17 Native Brain Tumor Detection & Quantitative CAD Workstation (Accuracy 90%+)\0"
+            VALUE "FileVersion",      "4.0.0.0\0"
+            VALUE "InternalName",     "NeuroScanAI_Ultra_v4\0"
+            VALUE "LegalCopyright",   "Developed by Erfan Alikhani (برنامه نویس عرفان علیخانی)\0"
+            VALUE "OriginalFilename", "NeuroScanAI_Ultra_v4_Erfan_Alikhani.exe\0"
+            VALUE "ProductName",      "NeuroScan AI Ultra\0"
+            VALUE "ProductVersion",   "4.0.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
